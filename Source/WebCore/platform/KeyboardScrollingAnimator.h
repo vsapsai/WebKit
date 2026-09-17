@@ -25,16 +25,18 @@
 
 #pragma once
 
-#include <WebCore/KeyboardEvent.h>
+//#include <WebCore/KeyboardEvent.h>
 #include <WebCore/KeyboardScroll.h> // FIXME: This is a layering violation.
 #include <WebCore/RectEdges.h>
-#include <WebCore/ScrollableArea.h>
+//#include <WebCore/ScrollableArea.h>
 #include <wtf/CheckedPtr.h>
 #include <wtf/TZoneMalloc.h>
 
 namespace WebCore {
 
+class KeyboardEvent;
 class PlatformKeyboardEvent;
+class ScrollableArea;
 
 enum class KeyboardScrollingKey : uint8_t {
     LeftArrow,

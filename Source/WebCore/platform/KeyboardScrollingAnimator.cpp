@@ -31,6 +31,7 @@
 #include "PlatformKeyboardEvent.h"
 #include "ScrollAnimator.h"
 #include "ScrollTypes.h"
+#include <WebCore/KeyboardEvent.h>
 #include <wtf/SortedArrayMap.h>
 #include <wtf/TZoneMallocInlines.h>
 

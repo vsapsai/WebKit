@@ -25,6 +25,9 @@
 
 #pragma once
 
+// Stupid hack for now.
+#include <wtf/Platform.h>
+
 #if ENABLE(THREADED_ANIMATIONS)
 
 #include <WebCore/AcceleratedEffectValues.h>

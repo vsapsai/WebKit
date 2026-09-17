@@ -25,6 +25,9 @@
 
 #pragma once
 
+// Stupid hack for now.
+#include <wtf/Platform.h>
+
 #if HAVE(CORE_MATERIAL)
 
 #include <WebCore/FloatRoundedRect.h>
