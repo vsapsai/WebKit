@@ -48,6 +48,7 @@ template<typename WrapperClass> JSC::JSObject* getDOMPrototype(JSC::VM&, JSC::JS
 
 JSC::WeakHandleOwner* wrapperOwner(DOMWrapperWorld&, JSC::ArrayBuffer*);
 void* wrapperKey(JSC::ArrayBuffer*);
+void* wrapperKey(void*);
 
 std::optional<JSC::JSObject*> getInlineCachedWrapper(DOMWrapperWorld&, void*);
 std::optional<JSC::JSObject*> getInlineCachedWrapper(DOMWrapperWorld&, ScriptWrappable*);
