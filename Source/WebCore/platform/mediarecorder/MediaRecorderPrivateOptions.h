@@ -28,6 +28,8 @@
 
 #if ENABLE(MEDIA_RECORDER)
 
+#include <wtf/text/WTFString.h>
+
 namespace WebCore {
 
 struct MediaRecorderPrivateOptions {

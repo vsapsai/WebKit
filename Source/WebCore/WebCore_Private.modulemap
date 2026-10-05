@@ -182,7 +182,12 @@ framework module WebCore_Private_paymentrequest {
   export *
 }
 
-framework module WebCore_Private_platform {
+framework module WebCore_Private_platform_cf {
+  header "MediaAccessibilitySoftLink.h"
+  export *
+}
+
+framework module WebCore_Private_platform_graphics {
   header "ANGLEUtilities.h"
   header "AV1Utilities.h"
   header "AV1UtilitiesCocoa.h"
@@ -1171,7 +1176,6 @@ framework module WebCore_Private_platform {
   header "GPUIntegralTypes.h"
   header "GPUTextureFormat.h"
   header "GPUTextureUsage.h"
-  header "GPUVideoEncoder.h"
   header "GainMap.h"
   header "GameControllerGamepadProvider.h"
   header "GameControllerSPI.h"
@@ -1687,7 +1691,6 @@ framework module WebCore_Private_platform {
   header "Matrix3DTransformOperation.h"
   header "MatrixTransformOperation.h"
   header "MediaAccessDenialReason.h"
-  header "MediaAccessibilitySoftLink.h"
   header "MediaCanStartListener.h"
   header "MediaConstraintType.h"
   header "MediaConstraints.h"
@@ -1723,8 +1726,6 @@ framework module WebCore_Private_platform {
   header "MediaProducer.h"
   header "MediaPromiseTypes.h"
   header "MediaQuery.h"
-  header "MediaRecorderPrivateOptions.h"
-  header "MediaRecorderPrivateWriter.h"
   header "MediaReorderQueue.h"
   header "MediaResourceLoader.h"
   header "MediaResourceSniffer.h"
@@ -2289,18 +2290,9 @@ framework module WebCore_Private_platform {
   header "RunJavaScriptParameters.h"
   header "RunLoopObserver.h"
   header "RunningStatus.h"
-  header "SQLValue.h"
-  header "SQLiteDatabase.h"
-  header "SQLiteDatabaseTracker.h"
-  header "SQLiteDatabaseTrackerClient.h"
-  header "SQLiteExtras.h"
-  header "SQLiteFileSystem.h"
   header "SQLiteIDBBackingStore.h"
   header "SQLiteIDBTransaction.h"
   header "SQLiteMemoryIDBBackingStore.h"
-  header "SQLiteStatement.h"
-  header "SQLiteStatementAutoResetScope.h"
-  header "SQLiteTransaction.h"
   header "STUNMessageParsing.h"
   header "SVGBoundingBoxComputation.h"
   header "SVGDocument.h"
@@ -3150,7 +3142,6 @@ framework module WebCore_Private_platform {
   header "ValidationMessageClient.h"
   header "ValidityStateFlags.h"
   header "VelocityData.h"
-  header "VideoCodecType.h"
   header "VideoColorSpaceInit.h"
   header "VideoDecoder.h"
   header "VideoEncoder.h"
@@ -3430,7 +3421,6 @@ framework module WebCore_Private_platform {
   header "WebNSAttributedStringExtras.h"
   header "WebPlaybackControlsManager.h"
   header "WebRTCProvider.h"
-  header "WebRTCVideoDecoder.h"
   header "WebSQLiteDatabaseTrackerClient.h"
   header "WebTextIndicatorLayer.h"
   header "WebVTTParser.h"
@@ -3482,6 +3472,32 @@ framework module WebCore_Private_platform {
   header "XRGPUProjectionLayerInit.h"
   header "XRLayerBacking.h"
   header "markup.h"
+  export *
+}
+
+framework module WebCore_Private_platform_mediarecorder {
+  header "MediaRecorderPrivateOptions.h"
+  header "MediaRecorderPrivateWriter.h"
+  export *
+}
+
+framework module WebCore_Private_platform_sql {
+  header "SQLValue.h"
+  header "SQLiteDatabase.h"
+  header "SQLiteDatabaseTracker.h"
+  header "SQLiteDatabaseTrackerClient.h"
+  header "SQLiteExtras.h"
+  header "SQLiteFileSystem.h"
+  header "SQLiteStatement.h"
+  header "SQLiteStatementAutoResetScope.h"
+  header "SQLiteTransaction.h"
+  export *
+}
+
+framework module WebCore_Private_platform_video_codecs {
+  header "GPUVideoEncoder.h"
+  header "VideoCodecType.h"
+  header "WebRTCVideoDecoder.h"
   export *
 }
 

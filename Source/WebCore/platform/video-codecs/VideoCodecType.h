@@ -25,6 +25,8 @@
 
 #pragma once
 
+#include <cstdint>
+
 namespace WebCore {
 
 enum class VideoCodecType : uint8_t {

@@ -25,6 +25,7 @@
 #ifndef MediaAccessibilitySoftLink_h
 #define MediaAccessibilitySoftLink_h
 
+#include <wtf/Platform.h>
 #if HAVE(MEDIA_ACCESSIBILITY_FRAMEWORK)
 
 #include <CoreText/CoreText.h>
