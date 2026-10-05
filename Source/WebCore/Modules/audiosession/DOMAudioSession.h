@@ -25,6 +25,7 @@
 
 #pragma once
 
+#include <wtf/Platform.h>
 #if ENABLE(DOM_AUDIO_SESSION)
 
 #include <WebCore/ActiveDOMObject.h>

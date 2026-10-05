@@ -26,6 +26,7 @@
 #pragma once
 
 #include <WebCore/URLPattern.h>
+#include <variant>
 
 namespace WebCore {
 

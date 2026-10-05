@@ -26,6 +26,7 @@
 
 #pragma once
 
+#include <wtf/Platform.h>
 #if ENABLE(GEOLOCATION)
 
 #include <WebCore/ActiveDOMObject.h>

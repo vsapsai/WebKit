@@ -25,6 +25,7 @@
 
 #pragma once
 
+#include <wtf/Platform.h>
 #if ENABLE(APPLE_PAY) || ENABLE(PAYMENT_REQUEST)
 
 #include <wtf/RefCounted.h>

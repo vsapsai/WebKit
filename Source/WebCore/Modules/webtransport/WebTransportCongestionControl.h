@@ -25,6 +25,8 @@
 
 #pragma once
 
+#include <cstdint>
+
 namespace WebCore {
 
 enum class WebTransportCongestionControl : uint8_t {

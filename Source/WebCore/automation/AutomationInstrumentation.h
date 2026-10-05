@@ -30,6 +30,7 @@
 
 #pragma once
 
+#include <wtf/Platform.h>
 #if ENABLE(WEBDRIVER_BIDI)
 
 #include <JavaScriptCore/ConsoleMessage.h>
