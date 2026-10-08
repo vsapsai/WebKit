@@ -122,4 +122,6 @@ private:
 
 }
 
+#include <WebCore/ScrollerPairMac.h> // Various Ref templates require a complete type
+
 #endif
