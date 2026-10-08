@@ -41,6 +41,7 @@ class RealtimeMediaSource;
 
 struct CaptureSourceOrError;
 struct MediaConstraints;
+struct MediaDeviceHashSalts;
 
 class AudioCaptureFactory {
 public:

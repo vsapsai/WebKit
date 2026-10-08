@@ -31,6 +31,7 @@
 #include <WebCore/IDBResourceIdentifier.h>
 #include <WebCore/IDBTransactionInfo.h>
 #include <WebCore/IndexedDB.h>
+#include <WebCore/SQLiteIDBBackingStore.h> // CheckedRef requires a complete type
 #include <wtf/CheckedPtr.h>
 #include <wtf/HashMap.h>
 #include <wtf/Noncopyable.h>
@@ -46,7 +47,6 @@ struct IDBKeyRangeData;
 
 namespace IDBServer {
 
-class SQLiteIDBBackingStore;
 class SQLiteIDBCursor;
 
 class SQLiteIDBTransaction : public CanMakeThreadSafeCheckedPtr<SQLiteIDBTransaction> {

@@ -25,11 +25,14 @@
 
 #pragma once
 
+#include <wtf/Assertions.h>
+#include <wtf/Platform.h>
 #if USE(CF)
 #include <CoreFoundation/CoreFoundation.h>
 #endif
 
 #if USE(FOUNDATION)
+#include <Foundation/NSRange.h>
 typedef struct _NSRange NSRange;
 #endif
 

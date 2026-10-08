@@ -27,6 +27,7 @@
 #if ENABLE(WEB_RTC) && USE(LIBWEBRTC)
 
 #include <WebCore/ExceptionCode.h>
+#include <WebCore/LibWebRTCMacros.h>
 #include <WebCore/RTCIceCandidateFields.h>
 // FIXME: Modularize WebRTC
 IGNORE_CLANG_WARNINGS_BEGIN("non-modular-include-in-module")

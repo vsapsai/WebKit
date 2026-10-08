@@ -25,6 +25,7 @@
 
 #pragma once
 
+#include <wtf/Platform.h>
 #if ENABLE(APP_HIGHLIGHTS)
 
 #include <WebCore/SharedBuffer.h>

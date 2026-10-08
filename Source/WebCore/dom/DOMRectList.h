@@ -25,13 +25,12 @@
 
 #pragma once
 
+#include <WebCore/DOMRect.h> // Ref requires a complete type
 #include <WebCore/FloatQuad.h>
 #include <wtf/RefCounted.h>
 #include <wtf/Vector.h>
 
 namespace WebCore {
-
-class DOMRect;
 
 class DOMRectList : public RefCounted<DOMRectList> {
 public:

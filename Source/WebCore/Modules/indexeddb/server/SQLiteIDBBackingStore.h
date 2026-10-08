@@ -36,7 +36,6 @@
 #include <WebCore/IDBIndexIdentifier.h>
 #include <WebCore/IDBObjectStoreIdentifier.h>
 #include <WebCore/IDBResourceIdentifier.h>
-#include <WebCore/SQLiteIDBTransaction.h>
 #include <WebCore/SQLiteStatementAutoResetScope.h>
 #include <pal/SessionID.h>
 #include <wtf/HashMap.h>
@@ -53,6 +52,7 @@ namespace IDBServer {
 enum class IsSchemaUpgraded : bool { No, Yes };
 
 class SQLiteIDBCursor;
+class SQLiteIDBTransaction;
 
 class SQLiteIDBBackingStore : public IDBBackingStore {
     WTF_MAKE_TZONE_ALLOCATED_EXPORT(SQLiteIDBBackingStore, WEBCORE_EXPORT);

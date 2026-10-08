@@ -26,13 +26,12 @@
 #ifndef SQLiteTransaction_h
 #define SQLiteTransaction_h
 
+#include <WebCore/SQLiteDatabase.h> // CheckedRef requires a complete type
 #include <wtf/CheckedRef.h>
 #include <wtf/Noncopyable.h>
 #include <wtf/TZoneMalloc.h>
 
 namespace WebCore {
-
-class SQLiteDatabase;
 
 class SQLiteTransaction {
     WTF_MAKE_TZONE_ALLOCATED_EXPORT(SQLiteTransaction, WEBCORE_EXPORT);

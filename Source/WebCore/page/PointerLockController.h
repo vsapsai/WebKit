@@ -24,6 +24,7 @@
 
 #pragma once
 
+#include <wtf/Platform.h>
 #if ENABLE(POINTER_LOCK)
 
 #include <WebCore/ExceptionCode.h>

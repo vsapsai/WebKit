@@ -37,6 +37,7 @@ namespace WebCore {
 
 class ResourceError;
 class ResourceResponse;
+class SharedBuffer;
 
 class FetchLoaderClient : public AbstractRefCountedAndCanMakeWeakPtr<FetchLoaderClient> {
     WTF_MAKE_TZONE_ALLOCATED(FetchLoaderClient);

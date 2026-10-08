@@ -25,6 +25,7 @@
 
 #pragma once
 
+#include <wtf/Platform.h>
 #if ENABLE(CONTENT_EXTENSIONS)
 
 #include <WebCore/CompiledContentExtension.h>

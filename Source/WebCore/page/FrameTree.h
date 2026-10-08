@@ -19,6 +19,7 @@
 
 #pragma once
 
+#include <WebCore/Frame.h> // WeakPtr requires a complete type
 #include <WebCore/FrameIdentifier.h>
 #include <wtf/CheckedArithmetic.h>
 #include <wtf/Forward.h>
@@ -30,7 +31,6 @@ namespace WebCore {
 enum class CanWrap : bool { No, Yes };
 enum class DidWrap : bool { No, Yes };
 
-class Frame;
 class LocalFrame;
 class TreeScope;
 

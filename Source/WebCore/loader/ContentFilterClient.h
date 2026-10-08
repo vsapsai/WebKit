@@ -25,6 +25,7 @@
 
 #pragma once
 
+#include <wtf/Platform.h>
 #if ENABLE(CONTENT_FILTERING)
 
 #include <wtf/AbstractRefCountedAndCanMakeWeakPtr.h>

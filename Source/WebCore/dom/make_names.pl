@@ -803,6 +803,7 @@ sub printTypeHelpersHeaderFile
     printLicenseHeader($F);
 
     print F "#pragma once\n\n";
+    print F "#include <WebCore/HTMLElement.h>\n";
     print F "#include <WebCore/".$parameters{namespace}."Names.h>\n\n";
 
     # FIXME: Remove `if` condition below once HTMLElementTypeHelpers.h is made inline.

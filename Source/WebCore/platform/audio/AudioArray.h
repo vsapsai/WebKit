@@ -35,6 +35,7 @@
 #include <wtf/CheckedArithmetic.h>
 #include <wtf/MallocSpan.h>
 #include <wtf/StdLibExtras.h>
+#include <wtf/TZoneMalloc.h>
 
 namespace WebCore {
 

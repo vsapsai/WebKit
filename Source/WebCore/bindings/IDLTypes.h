@@ -34,6 +34,7 @@
 #include <wtf/Markable.h>
 #include <wtf/URL.h>
 #include <wtf/WallTime.h>
+#include <variant>
 
 namespace JSC {
 class ArrayBuffer;

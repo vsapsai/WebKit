@@ -28,6 +28,8 @@
 #include <wtf/Platform.h>
 #if PLATFORM(MAC)
 
+#include <AppKit/NSPasteboard.h>
+
 ALLOW_DEPRECATED_DECLARATIONS_BEGIN
 
 namespace WebCore {

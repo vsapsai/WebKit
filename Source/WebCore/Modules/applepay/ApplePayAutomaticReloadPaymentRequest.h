@@ -25,6 +25,7 @@
 
 #pragma once
 
+#include <wtf/Platform.h>
 #if ENABLE(APPLE_PAY_AUTOMATIC_RELOAD_PAYMENTS)
 
 #include <WebCore/ApplePayLineItem.h>

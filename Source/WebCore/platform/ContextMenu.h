@@ -26,6 +26,7 @@
 #ifndef ContextMenu_h
 #define ContextMenu_h
 
+#include <wtf/Platform.h>
 #if ENABLE(CONTEXT_MENUS)
 
 #include <WebCore/ContextMenuItem.h>

@@ -25,6 +25,7 @@
 
 #pragma once
 
+#include <wtf/Platform.h>
 #if ENABLE(WEB_AUTHN)
 
 #include <WebCore/BufferSource.h>

@@ -22,6 +22,7 @@
 
 #include <WebCore/BoxExtents.h>
 #include <WebCore/FrameDestructionObserver.h>
+#include <WebCore/IntRect.h> // Vector subscript requires a complete type
 #include <wtf/Forward.h>
 #include <wtf/HashMap.h>
 #include <wtf/TZoneMalloc.h>
@@ -35,7 +36,6 @@ class Element;
 class FloatRect;
 class FloatSize;
 class GraphicsContext;
-class IntRect;
 class LocalFrame;
 class Node;
 

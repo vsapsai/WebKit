@@ -25,12 +25,12 @@
 
 #pragma once
 
+#include <WebCore/Document.h>
 #include <WebCore/LinkIcon.h>
 #include <wtf/OptionSet.h>
 
 namespace WebCore {
 
-class Document;
 enum class LinkIconType : uint8_t;
 
 class LinkIconCollector {

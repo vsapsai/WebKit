@@ -27,6 +27,8 @@
 
 #if ENABLE(THREADED_ANIMATIONS)
 
+#include <cstdint>
+
 namespace WebCore {
 
 // FIXME: The Motion Path spec calls for this to be a <coord-box>, not a <geometry-box>, the difference being that the former does not contain "margin-box" as a valid term.

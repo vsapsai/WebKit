@@ -30,6 +30,7 @@
 #include <WebCore/DeviceClient.h>
 #include <wtf/Noncopyable.h>
 #include <wtf/RefPtr.h>
+#include <wtf/TZoneMalloc.h>
 
 namespace WebCore {
 

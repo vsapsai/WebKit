@@ -26,6 +26,7 @@
 #pragma once
 
 #include <wtf/text/WTFString.h>
+#include <wtf/TZoneMalloc.h>
 
 namespace WebCore {
 

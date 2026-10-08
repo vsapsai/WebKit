@@ -25,6 +25,9 @@
 
 #pragma once
 
+#include <wtf/Platform.h>
+#include <cstdint>
+
 namespace Inspector {
 
 enum class ResourceType : uint8_t {

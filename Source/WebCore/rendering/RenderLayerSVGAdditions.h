@@ -20,6 +20,7 @@
 
 #include <WebCore/LayoutRect.h>
 #include <WebCore/PaintPhase.h>
+#include <WebCore/RenderLayer.h> // InlineWeakPtr requires a complete type
 #include <wtf/InlineWeakPtr.h>
 #include <wtf/OptionSet.h>
 #include <wtf/WeakPtr.h>
@@ -27,7 +28,6 @@
 namespace WebCore {
 
 class RenderElement;
-class RenderLayer;
 
 class SVGPaintOrderLayerItem {
 public:

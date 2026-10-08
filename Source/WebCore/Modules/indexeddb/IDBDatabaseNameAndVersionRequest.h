@@ -26,6 +26,7 @@
 #pragma once
 
 #include <WebCore/IDBActiveDOMObject.h>
+#include <WebCore/IDBConnectionProxy.h> // Ref requires a complete type
 #include <WebCore/IDBDatabaseNameAndVersion.h>
 #include <WebCore/IDBResourceIdentifier.h>
 #include <wtf/Forward.h>
@@ -37,10 +38,6 @@
 namespace WebCore {
 
 class ScriptExecutionContext;
-
-namespace IDBClient {
-class IDBConnectionProxy;
-}
 
 class IDBDatabaseNameAndVersionRequest final : public ThreadSafeRefCounted<IDBDatabaseNameAndVersionRequest>, public IDBActiveDOMObject {
     WTF_MAKE_TZONE_ALLOCATED_EXPORT(IDBDatabaseNameAndVersionRequest, WEBCORE_EXPORT);

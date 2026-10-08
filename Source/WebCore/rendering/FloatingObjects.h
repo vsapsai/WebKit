@@ -24,6 +24,7 @@
 #pragma once
 
 #include <WebCore/LayoutRect.h>
+#include <WebCore/RenderBox.h> // SingleThreadWeakPtr requires a complete type
 #include <wtf/ListHashSet.h>
 #include <wtf/TZoneMalloc.h>
 #include <wtf/WeakPtr.h>
@@ -31,7 +32,6 @@
 namespace WebCore {
 
 class RenderBlockFlow;
-class RenderBox;
 class FloatingObjects;
 
 template<typename, typename> class PODInterval;

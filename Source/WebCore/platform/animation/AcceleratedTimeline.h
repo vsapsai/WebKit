@@ -25,10 +25,12 @@
 
 #pragma once
 
+#include <wtf/Platform.h>
 #if ENABLE(THREADED_ANIMATIONS)
 
 #include <WebCore/ProgressResolutionData.h>
 #include <WebCore/TimelineIdentifier.h>
+#include <wtf/HashSet.h>
 #include <wtf/RefCountedAndCanMakeWeakPtr.h>
 #include <wtf/Seconds.h>
 #include <wtf/TZoneMalloc.h>

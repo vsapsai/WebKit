@@ -25,6 +25,7 @@
 
 #pragma once
 
+#include <wtf/Variant.h>
 
 typedef struct AudioStreamBasicDescription AudioStreamBasicDescription;
 

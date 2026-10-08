@@ -25,6 +25,7 @@
 
 #pragma once
 
+#include <wtf/Platform.h>
 #if ENABLE(GAMEPAD)
 
 #include <WebCore/GamepadProvider.h>

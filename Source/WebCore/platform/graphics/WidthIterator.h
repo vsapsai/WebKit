@@ -23,6 +23,7 @@
 #define WidthIterator_h
 
 #include <WebCore/GlyphBuffer.h>
+#include <WebCore/TextRun.h> // CheckedRef requires a complete type
 #include <WebCore/WritingMode.h>
 #include <unicode/umachine.h>
 #include <wtf/HashSet.h>
@@ -35,7 +36,6 @@ class FontCascade;
 class FontCascadeDescription;
 class Font;
 class TextAutospace;
-class TextRun;
 struct GlyphData;
 struct GlyphIndexRange;
 struct OriginalAdvancesForCharacterTreatedAsSpace;

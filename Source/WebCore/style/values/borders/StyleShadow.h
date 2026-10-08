@@ -25,12 +25,16 @@
 
 #pragma once
 
+#include <WebCore/CSSValueAggregates.h>
 #include <WebCore/FloatRect.h>
 #include <WebCore/LayoutRect.h>
 #include <WebCore/WritingMode.h>
 #include <wtf/FixedVector.h>
 
 namespace WebCore {
+
+template<typename T> struct CommaSeparatedFixedVector;
+
 namespace Style {
 
 enum class ShadowStyle : bool { Normal, Inset };

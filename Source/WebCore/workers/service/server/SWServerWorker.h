@@ -38,6 +38,7 @@
 #include <WebCore/ServiceWorkerRoute.h>
 #include <WebCore/ServiceWorkerTypes.h>
 #include <WebCore/Site.h>
+#include <WebCore/SWServer.h> // WeakPtr requires a complete type
 #include <WebCore/Timer.h>
 #include <wtf/ApproximateTime.h>
 #include <wtf/CompletionHandler.h>
@@ -49,7 +50,6 @@
 
 namespace WebCore {
 
-class SWServer;
 class SWServerRegistration;
 class SWServerToContextConnection;
 struct ServiceWorkerClientQueryOptions;

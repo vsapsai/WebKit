@@ -26,6 +26,7 @@
 #pragma once
 
 #include <WebCore/GraphicsLayerAnimationValue.h>
+#include <WebCore/TransformOperations.h>
 
 namespace WebCore {
 
