@@ -25,6 +25,7 @@
 
 #pragma once
 
+#include <WebCore/Document.h> // WeakRef requires a complete type
 #include <WebCore/FrameRateAligner.h>
 #include <WebCore/GraphicsLayer.h>
 #include <WebCore/Timer.h>
@@ -39,7 +40,6 @@
 namespace WebCore {
 
 class AnimationTimeline;
-class Document;
 class ScrollTimeline;
 class WeakPtrImplWithEventTargetData;
 class WebAnimation;
