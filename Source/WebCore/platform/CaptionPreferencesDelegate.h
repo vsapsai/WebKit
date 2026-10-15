@@ -25,6 +25,7 @@
 
 #pragma once
 
+#include <wtf/Platform.h>
 #if HAVE(MEDIA_ACCESSIBILITY_FRAMEWORK)
 
 #include <WebCore/CaptionUserPreferences.h>

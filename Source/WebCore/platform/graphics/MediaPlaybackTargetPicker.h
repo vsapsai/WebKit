@@ -26,6 +26,7 @@
 #ifndef MediaPlaybackTargetPicker_h
 #define MediaPlaybackTargetPicker_h
 
+#include <wtf/Platform.h>
 #if ENABLE(WIRELESS_PLAYBACK_TARGET)
 
 #include <WebCore/CocoaView.h>

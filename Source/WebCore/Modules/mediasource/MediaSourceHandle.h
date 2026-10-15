@@ -24,11 +24,13 @@
  */
 
 #pragma once
+#include <wtf/Platform.h>
 #if ENABLE(MEDIA_SOURCE_IN_WORKERS)
 
 #include <wtf/Forward.h>
 #include <wtf/Function.h>
 #include <wtf/Lock.h>
+#include <wtf/Ref.h>
 #include <wtf/RefCounted.h>
 #include <wtf/TZoneMalloc.h>
 

@@ -25,6 +25,7 @@
 
 #pragma once
 
+#include <wtf/Platform.h>
 #if HAVE(CORE_MATERIAL)
 
 #include <WebCore/FloatRoundedRect.h>

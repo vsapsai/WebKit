@@ -27,6 +27,7 @@
 
 #include <WebCore/BackForwardItemIdentifier.h>
 #include <WebCore/CachedFrame.h>
+#include <WebCore/Page.h> // WeakRef requires a complete type
 #include <wtf/CheckedRef.h>
 #include <wtf/HashSet.h>
 #include <wtf/MonotonicTime.h>

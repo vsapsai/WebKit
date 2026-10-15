@@ -25,9 +25,11 @@
 
 #pragma once
 
+#include <wtf/Platform.h>
 #if ENABLE(THREADED_ANIMATIONS)
 
 #include <WebCore/AcceleratedEffectCoordBox.h>
+#include <optional>
 
 namespace WebCore {
 

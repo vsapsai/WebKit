@@ -28,14 +28,12 @@
 #include <WebCore/WebGPUIntegralTypes.h>
 #include <WebCore/WebGPULoadOp.h>
 #include <WebCore/WebGPUStoreOp.h>
+#include <WebCore/WebGPUTexture.h>
 #include <WebCore/WebGPUTextureView.h>
 #include <wtf/Ref.h>
 #include <wtf/WeakRef.h>
 
 namespace WebCore::WebGPU {
-
-class TextureView;
-class Texture;
 
 using RenderPassDepthAttachmentView = Variant<const WeakRef<Texture>, const WeakRef<TextureView>>;
 

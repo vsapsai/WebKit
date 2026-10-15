@@ -1786,7 +1786,7 @@ sub GenerateHeaderContentHeader
     push(@headerContentHeader, "\n#pragma once\n\n");
 
     my $conditionalString = $codeGenerator->GenerateConditionalString($interface);
-    push(@headerContentHeader, "#if ${conditionalString}\n\n") if $conditionalString;
+    push(@headerContentHeader, "#include <wtf/Platform.h>\n#if ${conditionalString}\n\n") if $conditionalString;
     return @headerContentHeader;
 }
 

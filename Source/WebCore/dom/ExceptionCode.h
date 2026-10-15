@@ -18,6 +18,8 @@
 
 #pragma once
 
+#include <cstdint>
+
 namespace WebCore {
 
 enum class ExceptionCode : uint8_t {

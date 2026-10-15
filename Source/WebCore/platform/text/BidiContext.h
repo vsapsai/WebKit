@@ -21,6 +21,7 @@
 
 #pragma once
 
+#include <wtf/Platform.h> // before unicode headers to have consistent U_HIDE_DEPRECATED_API across different modules
 #include <unicode/uchar.h>
 #include <wtf/RefPtr.h>
 #include <wtf/ThreadSafeRefCounted.h>

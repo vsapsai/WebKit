@@ -31,6 +31,7 @@
 
 #include <WebCore/FloatPoint.h>
 #include <WebCore/FloatSize.h>
+#include <WebCore/Font.h> // WeakPtr requires a complete type
 #include <WebCore/Glyph.h>
 #include <WebCore/GlyphBufferMembers.h>
 #include <climits>
@@ -45,8 +46,6 @@ namespace WebCore {
 
 static const constexpr GlyphBufferGlyph deletedGlyph = 0xFFFF;
 static constexpr unsigned glyphBufferInlineCapacity = 64;
-
-class Font;
 
 class GlyphBuffer {
     WTF_MAKE_TZONE_ALLOCATED_INLINE(GlyphBuffer);

@@ -25,6 +25,7 @@
 
 #pragma once
 
+#include <wtf/Platform.h>
 #if ENABLE(WEB_RTC)
 
 #include <WebCore/RTCDataChannelHandler.h>

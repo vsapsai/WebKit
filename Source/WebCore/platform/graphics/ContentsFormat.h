@@ -25,6 +25,9 @@
 
 #pragma once
 
+#include <wtf/Assertions.h>
+#include <wtf/Platform.h>
+#include <cstdint>
 #include <optional>
 
 namespace WTF {

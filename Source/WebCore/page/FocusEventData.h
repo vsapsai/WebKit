@@ -25,6 +25,8 @@
 
 #pragma once
 
+#include <wtf/text/AtomString.h>
+
 namespace WebCore {
 
 struct FocusEventData {

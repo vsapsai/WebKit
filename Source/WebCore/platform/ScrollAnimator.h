@@ -33,6 +33,7 @@
 
 #include <WebCore/FloatPoint.h>
 #include <WebCore/PlatformWheelEvent.h>
+#include <WebCore/ScrollableArea.h> // WeakRef requires a complete type
 #include <WebCore/ScrollingEffectsController.h>
 #include <WebCore/Timer.h>
 #include <WebCore/WheelEventTestMonitor.h>
@@ -47,7 +48,6 @@ class FloatPoint;
 class KeyboardScrollingAnimator;
 class PlatformTouchEvent;
 class ScrollAnimationSmooth;
-class ScrollableArea;
 class Scrollbar;
 class WheelEventTestMonitor;
 

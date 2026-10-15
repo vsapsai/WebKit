@@ -26,6 +26,7 @@
 #pragma once
 
 #include <WebCore/MessageWithMessagePorts.h>
+#include <WebCore/SecurityOriginData.h>
 #include <WebCore/ServiceWorkerData.h>
 
 namespace WebCore {

@@ -44,6 +44,7 @@ typedef SIZE* LPSIZE;
 typedef struct HBITMAP__ *HBITMAP;
 #endif
 
+#include <WebCore/Image.h> // WeakRef requires a complete type
 #include <WebCore/NativeImage.h>
 #include <wtf/Ref.h>
 #include <wtf/RefPtr.h>

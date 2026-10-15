@@ -28,6 +28,7 @@
 
 #pragma once
 
+#include <cstdint>
 #include <optional>
 
 namespace WebCore {

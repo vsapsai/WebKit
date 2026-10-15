@@ -25,6 +25,9 @@
 
 #pragma once
 
+#include <wtf/Platform.h>
+#include <cstddef>
+
 namespace WebCore {
 
 class DeferredPromise;

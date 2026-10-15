@@ -25,6 +25,7 @@
 
 #pragma once
 
+#include <wtf/Platform.h>
 #if ENABLE(MACH_PORT_LAYER_HOSTING)
 #import <wtf/MachSendRightAnnotated.h>
 #endif

@@ -32,9 +32,11 @@
 #include <optional>
 #include <wtf/AbstractRefCountedAndCanMakeWeakPtr.h>
 #include <wtf/Forward.h>
+#include <wtf/TZoneMalloc.h>
 
 namespace WebCore {
 
+class NetworkLoadMetrics;
 class ResourceError;
 class ResourceResponse;
 class SharedBuffer;

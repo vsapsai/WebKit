@@ -25,6 +25,7 @@
 
 #pragma once
 
+#include <wtf/Platform.h>
 #if ENABLE(APPLE_PAY)
 
 #include <WebCore/ControlPart.h>

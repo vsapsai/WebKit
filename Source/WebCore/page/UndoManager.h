@@ -25,6 +25,7 @@
 
 #pragma once
 
+#include <WebCore/Document.h> // WeakRef requires a complete type
 #include <WebCore/EventTarget.h>
 
 #include <wtf/HashSet.h>
@@ -36,7 +37,6 @@
 
 namespace WebCore {
 
-class Document;
 class UndoItem;
 template<typename> class ExceptionOr;
 

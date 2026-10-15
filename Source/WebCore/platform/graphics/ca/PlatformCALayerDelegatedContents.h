@@ -29,6 +29,7 @@
 #include <wtf/MachSendRight.h>
 #include <wtf/Noncopyable.h>
 #include <wtf/ObjectIdentifier.h>
+#include <wtf/ThreadSafeRefCounted.h>
 
 namespace WebCore {
 class IOSurface;

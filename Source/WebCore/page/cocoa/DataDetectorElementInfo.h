@@ -25,6 +25,7 @@
 
 #pragma once
 
+#include <wtf/Platform.h>
 #if ENABLE(DATA_DETECTION)
 
 #import <WebCore/IntRect.h>

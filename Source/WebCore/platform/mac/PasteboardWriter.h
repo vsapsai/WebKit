@@ -29,6 +29,7 @@
 
 #if PLATFORM(MAC)
 
+#import <AppKit/NSPasteboard.h>
 #import <wtf/RetainPtr.h>
 
 namespace WebCore {

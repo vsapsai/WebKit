@@ -25,7 +25,10 @@
 
 #pragma once
 
+#include <wtf/Platform.h>
 #if ENABLE(THREADED_ANIMATIONS)
+
+#include <cstdint>
 
 namespace WebCore {
 

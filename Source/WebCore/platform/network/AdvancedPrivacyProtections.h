@@ -25,6 +25,8 @@
 
 #pragma once
 
+#include <cstdint>
+
 namespace WebCore {
 
 // FIXME: WebSearchContent is only used for debugging, and is unrelated to these other privacy protections;

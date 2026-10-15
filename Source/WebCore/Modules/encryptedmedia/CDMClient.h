@@ -28,6 +28,7 @@
 
 #pragma once
 
+#include <wtf/Platform.h>
 #if ENABLE(ENCRYPTED_MEDIA)
 
 #include <WebCore/CDMTypesForward.h>
