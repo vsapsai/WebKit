@@ -1505,6 +1505,10 @@ list(APPEND WebCore_PRIVATE_FRAMEWORK_HEADERS
     accessibility/cocoa/CocoaAccessibilityConstants.h
 )
 
+list(APPEND WebCore_PRIVATE_FRAMEWORK_HEADERS
+    WebCore_Private-relay.h
+)
+
 list(APPEND WebCore_IDL_FILES
     Modules/applepay/ApplePayAutomaticReloadPaymentRequest.idl
     Modules/applepay/ApplePayCancelEvent.idl

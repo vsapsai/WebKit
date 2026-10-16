@@ -32,7 +32,6 @@
 #endif
 
 #if USE(FOUNDATION)
-#include <Foundation/NSRange.h>
 typedef struct _NSRange NSRange;
 #endif
 

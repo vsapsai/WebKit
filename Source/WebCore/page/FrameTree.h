@@ -19,7 +19,6 @@
 
 #pragma once
 
-#include <WebCore/Frame.h> // WeakPtr requires a complete type
 #include <WebCore/FrameIdentifier.h>
 #include <wtf/CheckedArithmetic.h>
 #include <wtf/Forward.h>
@@ -31,6 +30,7 @@ namespace WebCore {
 enum class CanWrap : bool { No, Yes };
 enum class DidWrap : bool { No, Yes };
 
+class Frame;
 class LocalFrame;
 class TreeScope;
 
@@ -136,6 +136,8 @@ bool isSelfTargetFrameName(StringView);
 bool isTopTargetFrameName(StringView);
 
 } // namespace WebCore
+
+#include <WebCore/Frame.h> // WeakPtr requires a complete type
 
 #if ENABLE(TREE_DEBUGGING)
 // Outside the WebCore namespace for ease of invocation from the debugger.

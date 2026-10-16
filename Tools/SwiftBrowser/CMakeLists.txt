@@ -87,6 +87,10 @@ webkit_target_add_swift_options(SwiftBrowser
 
 WEBKIT_EXECUTABLE(SwiftBrowser)
 
+# Add dependency on WebKit layed out as a framework in the build directory.
+# Otherwise we can use WebKit from SDK and it doesn't contain any SPIs we need.
+add_dependencies(SwiftBrowser WebKit WebKit_StageSwiftModuleMac)
+
 # As for MiniBrowser: SIP strips DYLD_* for XPC children, so point them at this
 # build's frameworks the way Tools/Scripts/webkitdirs.pm's
 # setupMacWebKitEnvironment() does.

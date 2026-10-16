@@ -45,6 +45,7 @@
 #include "SQLiteIDBCursor.h"
 #include "SQLiteStatement.h"
 #include "SQLiteTransaction.h"
+#include "SQLiteIDBTransaction.h"
 #include "ThreadSafeDataBuffer.h"
 #include <JavaScriptCore/AuxiliaryBarrierInlines.h>
 #include <JavaScriptCore/JSCInlines.h>
